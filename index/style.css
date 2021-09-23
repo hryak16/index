@@ -1,0 +1,82 @@
+body {
+    margin: 0 auto;
+    background-color:#dbdbdb;
+}
+
+header{
+    background-color:  #2c3e50;
+    padding: 15px 30px 15px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img{
+    padding-right: 15px;
+}
+
+.logo-tittle{
+    color: white;
+    font-size: 42px;
+}
+
+.hor-menu ul li{
+    list-style-type: none;
+    float: left;
+    padding: 15px 0px;
+    color: #fff;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans
+    Condensed", Helvetica, Arial, sans-serif;
+}
+
+.hor-menu ul li a{
+    color: #6F8CA7;
+    text-decoration: none;
+    padding: 15px 10px 15px 10px; 
+    transition:all 0.5s
+}
+
+ul li a:hover{
+    background: grey;
+    color: white;
+    transition:all 0.5s;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    display:flex;
+    flex-direction: column;
+}
+
+.content {
+    max-width: 860px;
+    min-width: 360px;
+    padding: 20px;
+    background-color: white;
+}
+
+.text{
+    color: #2c3e50;
+    margin-left: 10px;
+    font-size: 17px;
+    font-family: sans-serif;
+    float: right;
+    padding-left: 20px;
+    
+}
+
+.content img{
+    float: left;
+    width: 250px;
+    border: solid #c2c2c2 10px;
+}
+
+.data{
+    font-size: 15px;
+}
